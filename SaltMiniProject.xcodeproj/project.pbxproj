@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE9AFDAA293F3C46005239F3 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AFDA9293F3C46005239F3 /* LoginTests.swift */; };
 		AECABC19293E56A9007BD650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC18293E56A9007BD650 /* AppDelegate.swift */; };
 		AECABC1B293E56A9007BD650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC1A293E56A9007BD650 /* SceneDelegate.swift */; };
-		AECABC1D293E56A9007BD650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC1C293E56A9007BD650 /* ViewController.swift */; };
-		AECABC20293E56A9007BD650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECABC1E293E56A9007BD650 /* Main.storyboard */; };
 		AECABC22293E56AA007BD650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECABC21293E56AA007BD650 /* Assets.xcassets */; };
 		AECABC25293E56AA007BD650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECABC23293E56AA007BD650 /* LaunchScreen.storyboard */; };
 		AECABC30293E56AB007BD650 /* SaltMiniProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC2F293E56AB007BD650 /* SaltMiniProjectTests.swift */; };
 		AECABC3A293E56AB007BD650 /* SaltMiniProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC39293E56AB007BD650 /* SaltMiniProjectUITests.swift */; };
 		AECABC3C293E56AB007BD650 /* SaltMiniProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC3B293E56AB007BD650 /* SaltMiniProjectUITestsLaunchTests.swift */; };
+		AECABC4F293E700E007BD650 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AECABC4E293E700E007BD650 /* Alamofire */; };
+		AECABC57293E708E007BD650 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC56293E708E007BD650 /* NetworkManager.swift */; };
+		AECABC59293E718B007BD650 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC58293E718B007BD650 /* DataModel.swift */; };
+		AECABC5C293E7819007BD650 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC5B293E7819007BD650 /* Constant.swift */; };
+		AECABC62293E7B9D007BD650 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC60293E7B9D007BD650 /* LoginViewController.swift */; };
+		AECABC63293E7B9D007BD650 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECABC61293E7B9D007BD650 /* LoginViewController.xib */; };
+		AECABC66293E7BA9007BD650 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC64293E7BA9007BD650 /* HomeViewController.swift */; };
+		AECABC67293E7BA9007BD650 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECABC65293E7BA9007BD650 /* HomeViewController.xib */; };
+		AECABC6A293E7D0E007BD650 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECABC69293E7D0E007BD650 /* Colors.xcassets */; };
+		AECABC6D293EEB29007BD650 /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECABC6C293EEB29007BD650 /* TextFieldView.xib */; };
+		AECABC6F293EEB30007BD650 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC6E293EEB30007BD650 /* TextFieldView.swift */; };
+		AECABC71293EF93E007BD650 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC70293EF93E007BD650 /* LoginViewModel.swift */; };
+		AECABC74293EFAFA007BD650 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AECABC73293EFAFA007BD650 /* IQKeyboardManagerSwift */; };
+		AECABC76293F2154007BD650 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECABC75293F2154007BD650 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE9AFDA9293F3C46005239F3 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		AECABC15293E56A9007BD650 /* SaltMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaltMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECABC18293E56A9007BD650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECABC1A293E56A9007BD650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AECABC1C293E56A9007BD650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AECABC1F293E56A9007BD650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AECABC21293E56AA007BD650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AECABC24293E56AA007BD650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AECABC26293E56AA007BD650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		AECABC35293E56AB007BD650 /* SaltMiniProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltMiniProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECABC39293E56AB007BD650 /* SaltMiniProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltMiniProjectUITests.swift; sourceTree = "<group>"; };
 		AECABC3B293E56AB007BD650 /* SaltMiniProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltMiniProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AECABC56293E708E007BD650 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AECABC58293E718B007BD650 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AECABC5B293E7819007BD650 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AECABC60293E7B9D007BD650 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AECABC61293E7B9D007BD650 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AECABC64293E7BA9007BD650 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AECABC65293E7BA9007BD650 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AECABC69293E7D0E007BD650 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AECABC6C293EEB29007BD650 /* TextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		AECABC6E293EEB30007BD650 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		AECABC70293EF93E007BD650 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AECABC75293F2154007BD650 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECABC74293EFAFA007BD650 /* IQKeyboardManagerSwift in Frameworks */,
+				AECABC4F293E700E007BD650 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +125,9 @@
 		AECABC17293E56A9007BD650 /* SaltMiniProject */ = {
 			isa = PBXGroup;
 			children = (
-				AECABC18293E56A9007BD650 /* AppDelegate.swift */,
-				AECABC1A293E56A9007BD650 /* SceneDelegate.swift */,
-				AECABC1C293E56A9007BD650 /* ViewController.swift */,
-				AECABC1E293E56A9007BD650 /* Main.storyboard */,
-				AECABC21293E56AA007BD650 /* Assets.xcassets */,
-				AECABC23293E56AA007BD650 /* LaunchScreen.storyboard */,
+				AECABC4A293E6FB3007BD650 /* Module */,
+				AECABC49293E6FAC007BD650 /* Model */,
+				AECABC48293E6FA2007BD650 /* Vendor */,
 				AECABC26293E56AA007BD650 /* Info.plist */,
 			);
 			path = SaltMiniProject;
@@ -114,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				AECABC2F293E56AB007BD650 /* SaltMiniProjectTests.swift */,
+				AE9AFDA9293F3C46005239F3 /* LoginTests.swift */,
 			);
 			path = SaltMiniProjectTests;
 			sourceTree = "<group>";
@@ -125,6 +149,115 @@
 				AECABC3B293E56AB007BD650 /* SaltMiniProjectUITestsLaunchTests.swift */,
 			);
 			path = SaltMiniProjectUITests;
+			sourceTree = "<group>";
+		};
+		AECABC48293E6FA2007BD650 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC68293E7CA2007BD650 /* Reusable View */,
+				AECABC5E293E7B6E007BD650 /* App */,
+				AECABC5D293E7B5F007BD650 /* Resources */,
+				AECABC5A293E7809007BD650 /* Constant */,
+				AECABC55293E7081007BD650 /* Manager */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		AECABC49293E6FAC007BD650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC58293E718B007BD650 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AECABC4A293E6FB3007BD650 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC5F293E7B7A007BD650 /* LaunchScreen */,
+				AECABC4C293E6FD8007BD650 /* Home */,
+				AECABC4B293E6FB7007BD650 /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AECABC4B293E6FB7007BD650 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC60293E7B9D007BD650 /* LoginViewController.swift */,
+				AECABC61293E7B9D007BD650 /* LoginViewController.xib */,
+				AECABC70293EF93E007BD650 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AECABC4C293E6FD8007BD650 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC64293E7BA9007BD650 /* HomeViewController.swift */,
+				AECABC65293E7BA9007BD650 /* HomeViewController.xib */,
+				AECABC75293F2154007BD650 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AECABC55293E7081007BD650 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC56293E708E007BD650 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		AECABC5A293E7809007BD650 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC5B293E7819007BD650 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		AECABC5D293E7B5F007BD650 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC21293E56AA007BD650 /* Assets.xcassets */,
+				AECABC69293E7D0E007BD650 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AECABC5E293E7B6E007BD650 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC1A293E56A9007BD650 /* SceneDelegate.swift */,
+				AECABC18293E56A9007BD650 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AECABC5F293E7B7A007BD650 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC23293E56AA007BD650 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		AECABC68293E7CA2007BD650 /* Reusable View */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC6B293EE9E1007BD650 /* TextField */,
+			);
+			path = "Reusable View";
+			sourceTree = "<group>";
+		};
+		AECABC6B293EE9E1007BD650 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				AECABC6C293EEB29007BD650 /* TextFieldView.xib */,
+				AECABC6E293EEB30007BD650 /* TextFieldView.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +276,10 @@
 			dependencies = (
 			);
 			name = SaltMiniProject;
+			packageProductDependencies = (
+				AECABC4E293E700E007BD650 /* Alamofire */,
+				AECABC73293EFAFA007BD650 /* IQKeyboardManagerSwift */,
+			);
 			productName = SaltMiniProject;
 			productReference = AECABC15293E56A9007BD650 /* SaltMiniProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +352,10 @@
 				Base,
 			);
 			mainGroup = AECABC0C293E56A9007BD650;
+			packageReferences = (
+				AECABC4D293E700E007BD650 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AECABC72293EFAFA007BD650 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = AECABC16293E56A9007BD650 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +372,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECABC63293E7B9D007BD650 /* LoginViewController.xib in Resources */,
 				AECABC25293E56AA007BD650 /* LaunchScreen.storyboard in Resources */,
+				AECABC67293E7BA9007BD650 /* HomeViewController.xib in Resources */,
+				AECABC6A293E7D0E007BD650 /* Colors.xcassets in Resources */,
+				AECABC6D293EEB29007BD650 /* TextFieldView.xib in Resources */,
 				AECABC22293E56AA007BD650 /* Assets.xcassets in Resources */,
-				AECABC20293E56A9007BD650 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +402,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AECABC1D293E56A9007BD650 /* ViewController.swift in Sources */,
+				AECABC62293E7B9D007BD650 /* LoginViewController.swift in Sources */,
+				AECABC76293F2154007BD650 /* HomeViewModel.swift in Sources */,
+				AECABC59293E718B007BD650 /* DataModel.swift in Sources */,
+				AECABC57293E708E007BD650 /* NetworkManager.swift in Sources */,
+				AECABC66293E7BA9007BD650 /* HomeViewController.swift in Sources */,
 				AECABC19293E56A9007BD650 /* AppDelegate.swift in Sources */,
 				AECABC1B293E56A9007BD650 /* SceneDelegate.swift in Sources */,
+				AECABC5C293E7819007BD650 /* Constant.swift in Sources */,
+				AECABC71293EF93E007BD650 /* LoginViewModel.swift in Sources */,
+				AECABC6F293EEB30007BD650 /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECABC30293E56AB007BD650 /* SaltMiniProjectTests.swift in Sources */,
+				AE9AFDAA293F3C46005239F3 /* LoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AECABC1E293E56A9007BD650 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AECABC1F293E56A9007BD650 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AECABC23293E56AA007BD650 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +585,7 @@
 				INFOPLIST_FILE = SaltMiniProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +612,7 @@
 				INFOPLIST_FILE = SaltMiniProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +740,39 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AECABC4D293E700E007BD650 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AECABC72293EFAFA007BD650 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 7.0.0;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AECABC4E293E700E007BD650 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AECABC4D293E700E007BD650 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AECABC73293EFAFA007BD650 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AECABC72293EFAFA007BD650 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AECABC0D293E56A9007BD650 /* Project object */;
 }
